@@ -1,0 +1,159 @@
+{
+  "title": "Gestione delle richieste di manutenzione del verde",
+  "description": "Prototipo navigabile per registrare e monitorare segnalazioni inventate relative al verde pubblico, organizzate per priorità e quartiere.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "cruscotto",
+      "title": "Cruscotto",
+      "description": "Panoramica delle richieste e delle attività di manutenzione.",
+      "metrics": [
+        {
+          "label": "Richieste aperte",
+          "value": "18"
+        },
+        {
+          "label": "Priorità alta",
+          "value": "4"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "7"
+        },
+        {
+          "label": "Completate nel mese",
+          "value": "23"
+        }
+      ],
+      "columns": [
+        "Quartiere",
+        "Richieste aperte"
+      ],
+      "rows": [
+        [
+          "Borgo delle Lanterne",
+          "6"
+        ],
+        [
+          "Giardini di Nubi",
+          "5"
+        ],
+        [
+          "Poggio Vela",
+          "4"
+        ],
+        [
+          "Riva Lumo",
+          "3"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "richieste",
+      "title": "Richieste",
+      "description": "Elenco filtrabile per quartiere, priorità e stato; la ricerca può trovare richieste per codice o area.",
+      "metrics": [
+        {
+          "label": "Richieste totali",
+          "value": "18"
+        },
+        {
+          "label": "Da assegnare",
+          "value": "5"
+        }
+      ],
+      "columns": [
+        "Codice",
+        "Quartiere",
+        "Area verde",
+        "Problema segnalato",
+        "Priorità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "VR-204",
+          "Borgo delle Lanterne",
+          "Parco dei Salici Quieti",
+          "Ramo spezzato su sentiero",
+          "Alta",
+          "Da assegnare"
+        ],
+        [
+          "VR-205",
+          "Giardini di Nubi",
+          "Viale delle Felci",
+          "Irrigazione non uniforme",
+          "Media",
+          "In lavorazione"
+        ],
+        [
+          "VR-206",
+          "Poggio Vela",
+          "Prato delle Piccole Onde",
+          "Cestino danneggiato",
+          "Bassa",
+          "Completata"
+        ],
+        [
+          "VR-207",
+          "Riva Lumo",
+          "Giardino delle Campanelle",
+          "Albero inclinato",
+          "Alta",
+          "In lavorazione"
+        ],
+        [
+          "VR-208",
+          "Borgo delle Lanterne",
+          "Piazza dei Tigli Lunari",
+          "Siepe da potare",
+          "Media",
+          "Da assegnare"
+        ],
+        [
+          "VR-209",
+          "Giardini di Nubi",
+          "Parco delle Brume",
+          "Vialetto invaso da erbacce",
+          "Bassa",
+          "Completata"
+        ],
+        [
+          "VR-210",
+          "Poggio Vela",
+          "Boschetto delle Lucciole",
+          "Ramo caduto",
+          "Alta",
+          "Da assegnare"
+        ],
+        [
+          "VR-211",
+          "Riva Lumo",
+          "Orto delle Nuvole",
+          "Impianto di irrigazione guasto",
+          "Alta",
+          "In lavorazione"
+        ]
+      ],
+      "form": [
+        "Codice",
+        "Quartiere",
+        "Area verde",
+        "Problema segnalato",
+        "Priorità",
+        "Stato"
+      ]
+    },
+    {
+      "id": "nuova-richiesta",
+      "title": "Nuova richiesta",
+      "description": "Registra una segnalazione inventata e assegna priorità e stato iniziale.",
+      "metrics": [],
+      "columns": [],
+      "rows": [],
+      "form": []
+    }
+  ]
+}
